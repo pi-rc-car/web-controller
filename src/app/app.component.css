@@ -1,0 +1,48 @@
+html {
+    display: flex;
+}
+
+button {
+    width: 10vw;
+    height: 10vh;
+
+    background-color: grey;
+    border: none;
+
+    border-radius: 10%;
+    position: absolute;
+}
+
+button:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+#stop {
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#up {
+    left: 40%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#down {
+    left: 40%;
+    transform: translate(-50%, -50%);
+    top: 60%;
+}
+
+#left {
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#right {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
